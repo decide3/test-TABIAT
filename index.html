@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <script src="js/script.js"></script>
+    <style>
+        body{
+            min-height: 100%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            Menu
+        </div>
+        <div class="text">
+            We change our menu every season.<br> Here is what we are currently<br> dishing up.
+        </div>
+        <div class="main-menu">
+            <button class="Food_Menu" onclick="image_Food.src='img/menu.png'">Food Menu</button>
+            <button class="Food_Menu" style="margin-top: 12px;" onclick="image_Food.src='img/drinks_menu.jpg'">Drinks Menu</button>
+            <button class="Food_Menu" style="margin-top: 12px;" onclick="image_Food.src='img/takeaway.jpg'">Takeaway Menu</button>
+            <img class="image" id="image_Food" src="img/menu.png">
+        </div>
+    </div>
+</body>
+</html>
