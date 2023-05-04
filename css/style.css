@@ -1,0 +1,96 @@
+.wrapper {
+    width: 1400px;
+    margin: auto;
+    position: absolute;
+    height: 1277px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #E9E9E3;
+    border-radius: 0px;
+}
+.menu{
+    position: absolute;
+    height: 22px;
+    left: 0%;
+    right: 91.25%;
+    top: 0px; 
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F6F64;
+    margin-left: 56px;
+    margin-top: 120px;
+}
+.text{
+    position: absolute;
+    width: 460px;
+height: 135px;
+left: 0%;
+right: 0.36%;
+top: 39px;
+margin-left: 56px;
+margin-top: 159px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 45px;
+/* or 140% */
+
+
+color: #6F6F64;
+}
+.main-menu{
+    width: 460px;
+    height: 200px;
+    margin-top: 368px;
+    margin-left: 56px;
+
+
+
+position: absolute;
+height: 58px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #6F6F64;
+border: none;
+}
+.Food_Menu{
+    width: 460px;
+    height:58px;
+    background: #E9E9E3;
+    border: 2px solid #6F6F64;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #6F6F64;
+}
+.Food_Menu:hover {
+    color: #fff;
+    background: #6F6F64;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+.image{
+    position: absolute;
+    width: 664px;
+    height: 1037px;
+    left: 600px;
+    top: calc(50% - 1037px/2 - 0.12px);
+    margin-top: 200px;
+    
+    background: url(.png);
+    border-radius: 0px;
+}
